@@ -8,6 +8,7 @@ fig <- plot_ly() %>%
   layout(dragmode = "pan", showlegend=T, xaxis=list(mirror=T, ticks='outside', showline=T), yaxis=list(mirror=T, ticks='outside', showline=T))
 
 load('data_whack1.rda')
+load('data_arduino.rda')
 
 
 #############
