@@ -7,7 +7,7 @@ source("utils/loadrawdata.R")
 #############
 # Load D 
 #############
-D <- LoadFromDirectory
+load('data_whack_raw.rda')
 
 
 #############
@@ -16,7 +16,7 @@ D <- LoadFromDirectory
 A <- LoadFromDirectory("arduinoLog",  event = NULL, meta=NULL, sample ="log")
 
 save(D, file = 'data_whack_raw.rda', compress=TRUE)
-#load('data_whack_raw.rda')
+
 
 # Load data from Google Sheets
 
